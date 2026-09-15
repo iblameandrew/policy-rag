@@ -1,0 +1,479 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Length 2816 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+([TEST] EMPLOYEE HANDBOOK & POLICY MANUAL \(DUMMY\)) Tj
+0 -14 Td
+(Acme Dynamics - Internal Use Only - Not real people) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 1. Welcome / Company Values) Tj
+0 -14 Td
+(Acme Dynamics is a fictional company created for this take-home exercise.) Tj
+0 -14 Td
+(Nothing in this document describes real people, real payroll, or real benefits.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Our values:) Tj
+0 -14 Td
+(- Safety of employee data comes before convenience of internal tools.) Tj
+0 -14 Td
+(- Ask HR through Workday or the HR shared inbox; do not ask chatbots for secrets.) Tj
+0 -14 Td
+(- We default to least privilege. If you do not need a record, you do not see it.) Tj
+0 -14 Td
+(- We write boring, correct systems and we prefer a refused answer to a leak.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(This handbook is the source of truth for the PolicyRAG demo. Public sections) Tj
+0 -14 Td
+(are readable by every authenticated role. Internal sections \(compensation) Tj
+0 -14 Td
+(philosophy\) are limited to employees and above. The payroll appendix is) Tj
+0 -14 Td
+(restricted to HR and Admin.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If a tool cannot ground an answer in a section you are allowed to read, the) Tj
+0 -14 Td
+(correct answer is that it does not know.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 2. Working Hours, PTO, and Remote Work) Tj
+0 -14 Td
+(Working hours:) Tj
+0 -14 Td
+(Core hours are 10:00 to 16:00 in the employee's local time zone, Monday) Tj
+0 -14 Td
+(through Friday. Teams may agree on a 9-day fortnight only with manager) Tj
+0 -14 Td
+(approval recorded in Workday.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Paid Time Off \(PTO\) policy:) Tj
+0 -14 Td
+(Full-time employees accrue 15 days of PTO per calendar year, plus 10 paid) Tj
+0 -14 Td
+(company holidays published on the intranet. Unused PTO may roll over up to) Tj
+0 -14 Td
+(5 days into the next year. Requests under 3 consecutive days are approved) Tj
+0 -14 Td
+(by the manager in Workday. Requests of 3 days or more should be submitted) Tj
+0 -14 Td
+(at least two weeks in advance.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Sick time is separate: 6 days per year. Do not use PTO in place of sick) Tj
+0 -14 Td
+(time when you are unwell.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Remote work:) Tj
+0 -14 Td
+(Acme Dynamics is hybrid. Employees are expected on-site Tuesday through) Tj
+0 -14 Td
+(Thursday unless their offer letter says otherwise. Monday and Friday are) Tj
+0 -14 Td
+(optional work-from-home days. A stable internet connection is required for) Tj
+0 -14 Td
+(remote days. Remote work is not a substitute for PTO.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Timekeeping:) Tj
+0 -14 Td
+(Non-exempt employees must record hours in Workday daily. Exempt employees) Tj
+0 -14 Td
+(record exceptions only \(PTO, sick, jury duty\).) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 3. Health Benefits Overview) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 3 0 R /Resources << /Font << /F1 13 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 2726 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+(This section is an overview. It contains no real protected health information) Tj
+0 -14 Td
+(and no member-level claims data.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Medical:) Tj
+0 -14 Td
+(Full-time employees may enroll in the Acme Dynamics group medical plan during) Tj
+0 -14 Td
+(the first 30 days of employment or at open enrollment each November. Coverage) Tj
+0 -14 Td
+(starts the first of the month after the employee elects a plan. Three dummy) Tj
+0 -14 Td
+(tiers exist: Employee, Employee+Spouse, Family. Premiums are published in) Tj
+0 -14 Td
+(Workday Benefits; this handbook does not list dollar amounts.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Dental and vision:) Tj
+0 -14 Td
+(Dental and vision plans are optional add-ons. Waiting period is 0 days for) Tj
+0 -14 Td
+(new hires who elect during onboarding.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Mental health:) Tj
+0 -14 Td
+(The employee assistance program \(EAP\) offers 6 counseling sessions per) Tj
+0 -14 Td
+(issue per year. The EAP phone number is listed on the intranet Benefits) Tj
+0 -14 Td
+(page, not in this dummy PDF.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(What this section does not contain:) Tj
+0 -14 Td
+(No diagnosis lists, no claim IDs, no dependent Social Security Numbers, and) Tj
+0 -14 Td
+(no explanation-of-benefits samples.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 4. Compensation Philosophy) Tj
+0 -14 Td
+(Classification: internal. This section describes how we think about pay. It) Tj
+0 -14 Td
+(does not name any employee and it does not list anyone's actual salary.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Pay bands \(DUMMY, not real offers\):) Tj
+0 -14 Td
+(- Band A \(early career IC\): USD 70,000 to 95,000) Tj
+0 -14 Td
+(- Band B \(mid IC\): USD 95,000 to 130,000) Tj
+0 -14 Td
+(- Band C \(senior IC\): USD 130,000 to 175,000) Tj
+0 -14 Td
+(- Band M \(people manager\): USD 140,000 to 190,000) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(We target the 50th to 60th percentile of a blended tech market survey.) Tj
+0 -14 Td
+(Location differentials may apply. Annual reviews occur in March. Merit) Tj
+0 -14 Td
+(increases, if any, are effective in April payroll.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Equity:) Tj
+0 -14 Td
+(Dummy restricted stock units may be granted at hire. Vesting is a 4-year) Tj
+0 -14 Td
+(schedule with a 1-year cliff. Equity is not a substitute for base pay.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(What managers may say:) Tj
+0 -14 Td
+(Managers may discuss the band for an open role. Managers may not quote) Tj
+0 -14 Td
+(another employee's salary, bonus, or payroll identifiers. Individual) Tj
+0 -14 Td
+(compensation records live in the restricted payroll appendix and in the) Tj
+0 -14 Td
+(HRIS. This philosophy section is not an authorization to retrieve those) Tj
+0 -14 Td
+(records.) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 13 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 2438 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+(# 5. Appendix A - Payroll Examples \(DUMMY\)) Tj
+0 -14 Td
+(RESTRICTED. Visible to HR and Admin roles only. This appendix exists ONLY) Tj
+0 -14 Td
+(to prove the retrieval ACL. Every name, salary, and identifier below is) Tj
+0 -14 Td
+(FAKE. Not real people. Not real bank accounts. Not real tax IDs.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Payroll examples \(DUMMY / FAKE\):) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1\) Alias user X / Jane Alvarez \(FAKE\)) Tj
+0 -14 Td
+(   Department: Platform Engineering) Tj
+0 -14 Td
+(   Annual salary: USD 87,400) Tj
+0 -14 Td
+(   Bonus target: 8 percent) Tj
+0 -14 Td
+(   SSN \(FAKE, labeled FAKE\): 078-05-1120) Tj
+0 -14 Td
+(   Pay group: Biweekly US salaried) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(2\) Alias user Y / Marcus Chen \(FAKE\)) Tj
+0 -14 Td
+(   Department: Design) Tj
+0 -14 Td
+(   Annual salary: USD 112,000) Tj
+0 -14 Td
+(   Bonus target: 10 percent) Tj
+0 -14 Td
+(   SSN \(FAKE, labeled FAKE\): 219-09-9999) Tj
+0 -14 Td
+(   Pay group: Biweekly US salaried) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(3\) Alias user Z / Priya Nair \(FAKE\)) Tj
+0 -14 Td
+(   Department: People Operations) Tj
+0 -14 Td
+(   Annual salary: USD 96,250) Tj
+0 -14 Td
+(   Bonus target: 8 percent) Tj
+0 -14 Td
+(   SSN \(FAKE, labeled FAKE\): 001-12-3456) Tj
+0 -14 Td
+(   Pay group: Biweekly US salaried) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(4\) Contractor example \(FAKE\)) Tj
+0 -14 Td
+(   Name: Diego Ramos \(FAKE\)) Tj
+0 -14 Td
+(   Day rate: USD 650) Tj
+0 -14 Td
+(   SSN \(FAKE, labeled FAKE\): 456-78-9012) Tj
+0 -14 Td
+(   Note: contractors are paid through the vendor system, not payroll.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If you can read this appendix through the assistant, your role filter is) Tj
+0 -14 Td
+(hr or admin. Employees must never retrieve these rows. After ingest, raw) Tj
+0 -14 Td
+(SSN digits must be replaced with [SSN_REDACTED] in the vector index.) Tj
+0 -14 Td
+(Salary figures may remain for HR/Admin questions such as) Tj
+0 -14 Td
+("What is user X's salary?") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 6. How to Request a Pay Stub) Tj
+0 -14 Td
+(Process only. This section does not include pay amounts.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Employees request a pay stub in Workday:) Tj
+0 -14 Td
+(1. Sign in to Workday with SSO.) Tj
+0 -14 Td
+(2. Open Menu ? Pay ? Pay Documents \(or search "payslip"\).) Tj
+0 -14 Td
+(3. Select the pay date and download the PDF.) Tj
+0 -14 Td
+(4. If a stub is missing after a new hire's first cycle, file an HR ticket) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 13 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 2349 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+(   with the pay date. Do not send bank account numbers in the ticket body.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Managers cannot download another person's stub. HR Partners can, through) Tj
+0 -14 Td
+(the HRIS, not through this assistant.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(The assistant may describe this process. The assistant may not attach a) Tj
+0 -14 Td
+(stub, invent a net-pay figure, or read the payroll appendix for an) Tj
+0 -14 Td
+(employee role.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 7. IT / Acceptable Use) Tj
+0 -14 Td
+(Company laptops are encrypted at rest. Use the password manager for) Tj
+0 -14 Td
+(credentials. Do not reuse the SSO password on other sites.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Acceptable use:) Tj
+0 -14 Td
+(- Software installs go through the company catalog.) Tj
+0 -14 Td
+(- Customer data stays in approved SaaS tools.) Tj
+0 -14 Td
+(- Do not paste production secrets, raw payroll files, or identification) Tj
+0 -14 Td
+(  numbers into public AI products.) Tj
+0 -14 Td
+(- RAG demos must keep embeddings local unless a written exception exists.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Phishing:) Tj
+0 -14 Td
+(Report suspicious mail with the Report Phish button. IT will never ask for) Tj
+0 -14 Td
+(your password or for a Social Security Number over chat.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Lost device:) Tj
+0 -14 Td
+(Call the IT hotline on the intranet within 2 hours. Remote wipe is) Tj
+0 -14 Td
+(standard.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(# 8. Glossary) Tj
+0 -14 Td
+(PTO: Paid Time Off. See section 2.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Workday: The dummy HRIS used in these examples.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Pay stub / payslip: A document showing gross pay, deductions, and net pay) Tj
+0 -14 Td
+(for one cycle. Request it through Workday \(section 6\).) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Compensation philosophy: How bands are set \(section 4\). Not a list of) Tj
+0 -14 Td
+(named salaries.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Payroll appendix: Restricted dummy rows in section 5. HR and Admin only.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Classification public: Readable by public, employee, hr, and admin.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Classification internal: Readable by employee, hr, and admin.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Classification restricted: Readable by hr and admin only.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(EAP: Employee Assistance Program. See section 3.) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 13 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 263 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+() Tj
+0 -14 Td
+(Least privilege: If a record is not needed for the task, it is not) Tj
+0 -14 Td
+(retrieved. Authorization is enforced at retrieval time, not by asking the) Tj
+0 -14 Td
+(language model to keep a secret.) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 13 0 R >> >> >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000141 00000 n 
+0000003008 00000 n 
+0000003135 00000 n 
+0000005912 00000 n 
+0000006039 00000 n 
+0000008528 00000 n 
+0000008655 00000 n 
+0000011055 00000 n 
+0000011183 00000 n 
+0000011497 00000 n 
+0000011626 00000 n 
+trailer << /Size 14 /Root 1 0 R >>
+startxref
+11722
+%%EOF

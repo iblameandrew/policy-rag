@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./chroma:/app/chroma
+      - ./data:/app/data
+    env_file:
+      - .env.example
+    environment:
+      # Compose reads a gitignored local .env for interpolation if present.
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      CHROMA_DIR: /app/chroma
+      HANDBOOK_PDF: /app/data/employee_handbook.pdf
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
