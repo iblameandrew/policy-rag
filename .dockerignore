@@ -7,6 +7,8 @@ __pycache__
 .pytest_cache
 .mypy_cache
 chroma
+chroma-http-smoke
+demo
 *.egg-info
 .cache
 .env

@@ -174,3 +174,21 @@ exposed - this is the new remote https://github.com/iblameandrew/policy-rag.git
 - `.gitignore` includes `.env`; only `.env.example` is tracked.
 - `demo/` recording is included in this repo.
 - Pushed to `https://github.com/iblameandrew/policy-rag.git`.
+
+## Session 9 — GitHub Actions CI
+
+### Prompt
+
+```
+ADD CI — GitHub Actions for PolicyRAG
+... pytest -q, docker build, fail closed on ACL/SSN tests ...
+```
+
+### Result
+
+- Added `.github/workflows/ci.yml`: pytest job + docker-build job on
+  push/PR to main|master.
+- Glue only: `CHROMA_PATH` alias in `app/config.py`; CI ingest/tests use
+  `POLICYRAG_FAKE_EMBEDDINGS=1` so pytest needs no network/key.
+- Ruff skipped unless a ruff config exists (`--exit-zero` if it does).
+- Did not change privacy, retrieve, ACL, or `/ask`.

@@ -1,0 +1,82 @@
+name: ci
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+  OPENAI_API_KEY: ""
+  TOKENIZERS_PARALLELISM: "false"
+
+jobs:
+  test:
+    name: pytest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      POLICYRAG_FAKE_EMBEDDINGS: "1"
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      CHROMA_PATH: /tmp/chroma-ci
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --index-url https://download.pytorch.org/whl/cpu torch
+          pip install -r requirements.txt
+          pip install pytest httpx
+
+      - name: Lint (warnings only)
+        run: |
+          if [ -f ruff.toml ] || [ -f .ruff.toml ] || grep -q '\[tool.ruff\]' pyproject.toml 2>/dev/null; then
+            pip install ruff
+            ruff check . --exit-zero
+          else
+            echo "No ruff config; skipping lint"
+          fi
+
+      - name: Dummy handbook
+        run: |
+          mkdir -p data
+          if [ ! -f data/employee_handbook.pdf ]; then
+            python -m scripts.generate_handbook
+          fi
+
+      - name: Ingest into ephemeral Chroma
+        run: python -m scripts.ingest --pdf data/employee_handbook.pdf
+
+      - name: Test
+        run: pytest -q --tb=short
+
+  docker:
+    name: docker-build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build image
+        run: docker build -t policyrag:ci .

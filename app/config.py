@@ -43,7 +43,8 @@ os.environ.setdefault("ANONYMIZED_TELEMETRY", "False")
 
 
 def chroma_dir() -> Path:
-    raw = os.getenv("CHROMA_DIR", str(ROOT / "chroma"))
+    """CHROMA_DIR preferred; CHROMA_PATH accepted as a CI alias."""
+    raw = os.getenv("CHROMA_DIR") or os.getenv("CHROMA_PATH") or str(ROOT / "chroma")
     return Path(raw)
 
 
